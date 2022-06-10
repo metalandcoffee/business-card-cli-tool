@@ -1,0 +1,27 @@
+{
+  "name": "metalandcoffee",
+  "version": "1.0.0",
+  "description": "A fancy business card that outputs to the terminal using npx.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalandcoffee/business-card-cli-tool.git"
+  },
+  "author": "metalandcoffee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metalandcoffee/business-card-cli-tool/issues"
+  },
+  "homepage": "https://github.com/metalandcoffee/business-card-cli-tool#readme",
+  "bin": {
+    "metalandcoffee": "./index.js"
+  },
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1"
+  }
+}
